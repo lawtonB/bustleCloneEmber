@@ -1,2 +1,8 @@
-<h1>{{story.headline}}</h1>
-<div>{{#link-to 'details' story}}<img src={{story.image}}> {{/link-to}}</div>
+<div class='image'>
+
+<div class='imageText'>
+  {{#link-to 'details' story}}<img src={{story.image}}> {{/link-to}}
+  <h3 class="headline"><span>{{story.headline}}</span></h3>
+</div>
+
+</div>

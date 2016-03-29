@@ -1,0 +1,19 @@
+.bustle{
+  text-align: center
+}
+.image{
+  position: relative;
+  width: 650px;
+  height: auto;
+}
+
+.imageText h3{
+  position: relative;
+  bottom: 60px;
+  color: white;
+  left: 10px;
+  /*border: 2px solid red;*/
+}
+li {
+  list-style: none;
+}
