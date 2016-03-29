@@ -4,6 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'bustle-clone',
     environment: environment,
+    firebase: 'https://shining-inferno-5099.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
@@ -25,6 +26,7 @@ module.exports = function(environment) {
       'img-src': "'self' *",
       'style-src': "'self' 'unsafe-inline'",
       'frame-src': "'self' https://*.firebaseio.com"
+    }
   };
 
   if (environment === 'development') {
