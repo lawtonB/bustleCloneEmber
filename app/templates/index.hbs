@@ -1,9 +1,5 @@
-<h1> bustle-clone </h1>
-
 <ul>
   {{#each model as |story|}}
-    <li>{{story.headline}}</li>
-    <li>{{story.author}}</li>
-    <li>{{story.image}}</li>
+    {{story-tile story=story}}
   {{/each}}
 </ul>
