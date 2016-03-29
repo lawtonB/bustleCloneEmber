@@ -10,6 +10,10 @@ export default Ember.Route.extend({
       if (confirm('delete this story?')){
         story.destroyRecord();
       }
+    },
+    saveStory(params) {
+      var newStory = this.store.createRecord('story', params);
+      newStory.save();
     }
   }
 });
