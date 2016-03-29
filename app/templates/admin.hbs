@@ -1,9 +1,12 @@
 <h1>Admin page</h1>
-<li>
+<ul>
   {{#each model as |story|}}
   {{story.headline}}
   <button {{action 'delete' story}}>Delete Story</button>
+  <br>
+  {{update-story story=story update='update'}}
+  <br>
   {{/each}}
-</li>
-
+</ul>
+<br>
 {{new-story saveStory='saveStory'}}
