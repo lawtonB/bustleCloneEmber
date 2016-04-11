@@ -1,7 +1,6 @@
 # Bustle-clone
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This project is a clone of the popular commercial news website bust, designed to demonstrate proficiency in ember JS framework building and firebase database one to many relationships.
 
 ## Prerequisites
 
